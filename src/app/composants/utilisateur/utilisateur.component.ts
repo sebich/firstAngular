@@ -26,6 +26,10 @@ export class UtilisateurComponent implements OnInit {
 
   ngOnInit() { }
 
+  onClick() {
+    alert('Aucune information supplémentaire pour le moment !');
+  }
+
 }
 
 interface hobby {
