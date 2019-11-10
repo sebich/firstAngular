@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DonneesService } from '../../services/donnees.service';
 
 @Component({
   selector: 'app-utilisateur',
@@ -12,7 +13,7 @@ export class UtilisateurComponent implements OnInit {
   email: string;
   hobby: hobby;
 
-  constructor() {
+  constructor(private donnees: DonneesService) {
     this.nom = 'Séb';
     this.age = 25;
     this.email = 'seb@mail.com';
