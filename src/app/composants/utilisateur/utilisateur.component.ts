@@ -33,6 +33,7 @@ export class UtilisateurComponent implements OnInit {
 
 }
 
+// tslint:disable-next-line: class-name
 interface hobby {
   hobbyUn: string;
   hobbyDeux: string;
